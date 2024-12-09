@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文旅项目ESG指标体系的自测系统（基础版）</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <h1>文旅项目ESG指标体系的自测系统（基础版）</h1>
+    </header>
+    <main>
+        <section>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>支柱</th>
+                            <th>一级指标（重要性议题）</th>
+                            <th>二级指标</th>
+                            <th>规划设计评价内容与自查情况</th>
+                            <th>施工评价内容与自查情况</th>
+                            <th>招商运营评价内容与自查情况</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- 环境部分 -->
+                        <tr class="environment">
+                            <td rowspan="9">环境 (E)</td> <!-- 支柱 -->
+                            <td rowspan="2">1. 应对气候变化</td> <!-- 一级指标 -->
+                            <td>碳排放控制与管理</td> <!-- 二级指标 -->
+                            <td>
+                                是否注重低碳理念，考虑低碳方案，设立碳排放目标，采用可再生能源和节能设计。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 规划设计阶段 -->
+                            <td>
+                                是否采用低碳施工技术和材料，控制施工过程中的碳排放。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 施工阶段 -->
+                            <td>
+                                是否在运营过程中持续监测和管理碳排放，实施应对气候变化的策略。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 招商运营阶段 -->
+                        </tr>
+                        <tr class="environment">
+                            <td>气候变化风险管理</td> <!-- 二级指标 -->
+                            <td>
+                                检查是否进行了气候风险评估，设计中是否有应对极端气候的措施。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 规划设计阶段 -->
+                            <td>
+                                是否有应对短期气候变化（如暴雨、高温）的预案。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 施工阶段 -->
+                            <td>
+                                是否针对气候变化制定适应性的运营策略，如加强基础设施的维护。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 招商运营阶段 -->
+                        </tr>
+                        <tr class="environment">
+                            <td rowspan="2">2. 污废管理</td> <!-- 一级指标 -->
+                            <td>污染物减少与处理</td> <!-- 二级指标 -->
+                            <td>
+                                污废处理设施设计是否合理，是否符合环保标准。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 规划设计阶段 -->
+                            <td>
+                                是否妥善处理施工废物，如分类回收、无害化处理。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 施工阶段 -->
+                            <td>
+                                是否定期监测运营中的污染物排放，是否达标排放。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 招商运营阶段 -->
+                        </tr>
+                        <tr class="environment">
+                            <td>废弃物处理与回收利用</td> <!-- 二级指标 -->
+                            <td>
+                                是否在规划中加入废弃物分类、回收与再利用的措施。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 规划设计阶段 -->
+                            <td>
+                                是否在施工中对废弃物进行分类回收，减少浪费。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 施工阶段 -->
+                            <td>
+                                是否建立完善的废弃物处理与回收机制，并定期优化。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 招商运营阶段 -->
+                        </tr>
+                        <tr class="environment">
+                            <td rowspan="3">3. 资源利用规划</td> <!-- 一级指标 -->
+                            <td>水资源利用规划</td> <!-- 二级指标 -->
+                            <td>
+                                检查是否有雨水收集、中水回用等水资源利用规划，是否有节水器具选用。
+                                <input type="checkbox" class="checkbox">
+                            </td>
+                            <td>
+                                1.是否设有水资源循环利用系统及相关设施。2.是否设置相关管理标准文件。
+                                <input type="checkbox" class="checkbox">
+                            </td>
+                            <td>
+                                核查运营中是否有水资源利用效率监测，是否有提高水资源利用率的措施。
+                                <input type="checkbox" class="checkbox">
+                            </td>
+                        </tr>
+                        <tr class="environment">
+                            <td>能源利用规划</td> <!-- 二级指标 -->
+                            <td>
+                                查看是否选用了节能设备和可再生能源技术，是否有能源利用规划。
+                                <input type="checkbox" class="checkbox">
+                            </td>
+                            <td>
+                                检查施工是否采用节能工艺，是否有能源消耗监测。
+                                <input type="checkbox" class="checkbox">
+                            </td>
+                            <td>
+                                查看是否有能源管理系统，是否有可再生能源利用比例统计。
+                                <input type="checkbox" class="checkbox">
+                            </td>
+                        </tr>
+                        <tr class="environment">
+                                <td>物料回收利用</td> <!-- 二级指标 -->
+                                <td>
+                                    1.是否选用耐用且可回收的材料，是否有物料采购计划。2.建立分类与回收网络，以实现资源高效回收与再利用。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>
+                                    1.施工过程中是否有减少物料浪费，是否有物料回收利用措施。2.是否布设物料回收相关设备设施。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>
+                                    是否为合作伙伴提供必要的物料回收知识和技能培训，包括回收流程、分类标准、设备操作等方面。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                         </tr>
+                         <tr class="environment">
+                            <td rowspan="2">4. 环境质量与生态系统</td> <!-- 一级指标 -->
+                            <td>环境管理制度建立</td> <!-- 二级指标 -->
+                            <td>
+                                1.是否建立了相应的环境管理制度，是否有环境管理相关岗位。2.是否规划必要的环保设施。
+                                <input type="checkbox" class="checkbox">
+                            </td>
+                            <td>
+                                1.是否根据环境管理制度制定相应行动计划，是否实施相关措施，控制施工过程中的污染。2.环保设施是否正确安装并调试到位。
+                                <input type="checkbox" class="checkbox">
+                            </td>
+                            <td>
+                                1.是否环保设施进行定期运维。2.是否在运营过程中通过培训和宣传提升环保意识。3.是否有环境管理执行记录。
+                                <input type="checkbox" class="checkbox">
+                            </td>
+                        </tr>
+                        <tr class="environment">
+                            <td>生态系统与生物多样性保护</td> <!-- 二级指标 -->
+                            <td>
+                                检查是否有生态保护规划，是否避免破坏生物栖息地。
+                                <input type="checkbox" class="checkbox">
+                            </td>
+                            <td>
+                                施工过程是否有生态系统保护措施与破坏赔偿机制。
+                                <input type="checkbox" class="checkbox">
+                            </td>
+                            <td>
+                                1.是否推动绿色产业链发展，引进环保型、低碳型商家和企业。2.是否注重对生态系统与生物多样性保护的宣传和教育
+                                <input type="checkbox" class="checkbox">
+                            </td>
+                         </tr>
+                        <!-- 社会部分 -->
+                        <tr class="society">
+                            <td rowspan="9">社会 (S)</td> <!-- 支柱 -->
+                            <td rowspan="3">5. 基础设施与产品服务</td> <!-- 一级指标 -->
+                            <td>基础设施建设</td> <!-- 二级指标 -->
+                            <td>
+                                1.是否考虑交通等基础设施，并考虑建设对环境的影响。2.是否考虑绿色低碳相关基础设施规划设计。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 规划设计阶段 -->
+                            <td>
+                                建设是否符合环保标准，是否有施工质量保障措施。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 施工阶段 -->
+                            <td>
+                                核查基础设施是否得到良好维护，是否有升级改造计划。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 招商运营阶段 -->
+                            <tr class="society">
+                                <td>数字化建设与服务</td> <!-- 二级指标 -->
+                                <td>
+                                    检查是否规划数字化服务体系，是否有数字化基础设施设计。
+                                    <input type="checkbox" class="checkbox">
+                                </td> <!-- 规划设计阶段 -->
+                                <td>
+                                    查看施工过程中是否考虑数字化建设基础，是否有相关预留接口。
+                                    <input type="checkbox" class="checkbox">
+                                </td> <!-- 施工阶段 -->
+                                <td>
+                                    检查是否提供数字化服务，是否有数字化服务提升运营效率的统计。
+                                    <input type="checkbox" class="checkbox">
+                                </td> <!-- 招商运营阶段 -->
+                            </tr>
+                            <tr class="society">
+                                <td>产品服务安全与质量把控</td> <!-- 二级指标 -->
+                                <td>
+                                    是否考虑文旅项目的安全性，包括游客流量控制、紧急疏散通道、消防设施等。
+                                    <input type="checkbox" class="checkbox">
+                                </td> <!-- 规划设计阶段 -->
+                                <td>
+                                    是否加强施工质量的监管，确保景点的建设符合设计要求，建筑材料和工艺达到质量标准。
+                                    <input type="checkbox" class="checkbox">
+                                </td> <!-- 施工阶段 -->
+                                <td>
+                                    是否对入驻商家的产品和服务进行安全审核与质量把控，确保其符合相关的安全标准和规定。
+                                    <input type="checkbox" class="checkbox">
+                                </td> <!-- 招商运营阶段 -->
+                            </tr>
+                            <tr class="society">
+                                <td rowspan="3">6. 利益相关方管理</td> <!-- 一级指标 -->
+                                <td>员工福利与发展</td> <!-- 二级指标 -->
+                                <td>
+                                检查是否设计员工友好型工作环境，是否有员工福利规划。
+                                <input type="checkbox" class="checkbox">
+                                </td> <!-- 规划设计阶段 -->
+                                <td>
+                                查看施工人员工作环境是否安全，是否有劳动保护措施。
+                                <input type="checkbox" class="checkbox">
+                                </td> <!-- 施工阶段 -->
+                                <td>
+                                核查是否关注员工发展，是否有员工培训和晋升记录。
+                                <input type="checkbox" class="checkbox">
+                                </td> <!-- 招商运营阶段 -->
+                            </tr>
+                            <tr class="society">
+                                <td>供应链与供应商管理</td> <!-- 二级指标 -->
+                                <td>是否整合旅游资源，明确主题定位，规划供应链构成。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>是否选择优质施工队伍与优先使用本地材料，确保施工质量和环境保护，减少碳足迹。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>是否制定招商政策，管理商户，是否有共同营销推广的制度。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                            </tr>
+                            <tr class="society">
+                                <td>客户与消费者维护</td>
+                                <td>功能布局、设施配置规划设计等是否考虑客户需求和体验。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>是否充分考虑客户的舒适度和体验。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>1.是否积极收集客户与消费者的反馈意见，及时调整和优化运营策略。2.是否建立长期的客户维护机制，如定期回访、活动促销等。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                            </tr>
+                            <tr class="society">
+                                <td rowspan="3">7.社会共享与机遇</td> <!-- 一级指标 -->
+                                <td>响应国家战略与政策</td> <!-- 二级指标 -->
+                                <td>是否有响应国家战略与政策的规划设计。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>是否按照国家战略相关要求进行施工。
+                                    <input type="checkbox" class="checkbox"> </td>
+                                <td>是否积极响应国家战略，是否争取政策支持。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                            </tr>
+                            <tr class="society">
+                                <td>支持社会公益事业</td> <!-- 二级指标 -->
+                                <td>是否规划设计可用于支持社会公益事业项目或活动的场所，是否有预算安排。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>是否鼓励施工单位在施工过程中融入公益元素或活动，如组织植树造林活动等，提升项目的社会形象。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>是否组织和参与各类社会公益事业，是否有相关成果统计。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                            </tr>
+                            <tr class="society">
+                                <td>科技创新应用</td> <!-- 二级指标 -->
+                                <td>是否充分应用科技创新成果创新展示方式，或采用智能化设施提升游客体验等。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>是否采用智能化施工管理技术，如BIM技术等。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>是否采用数字化手段营销推广，是否智能化运营与服务，如应用大数据分析优化运营策略。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                            </tr>        
+                        </tr>
+                        <!-- 治理部分 -->
+                        <tr class="Governance">
+                            <td rowspan="5">治理 (G)</td> <!-- 支柱 -->
+                            <td rowspan="3">8. 可持续发展相关治理</td> <!-- 一级指标 -->
+                            <td>可持续治理架构</td> <!-- 二级指标 -->
+                            <td>
+                                是否建立可持续发展相关治理架构，是否制定全面发展规划。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 规划设计阶段 -->
+                            <td>
+                                是否进行可持续相关的施工方案制定与管理。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 施工阶段 -->
+                            <td>
+                                是否持续运行和完善可持续治理架构。
+                                <input type="checkbox" class="checkbox">
+                            </td> <!-- 招商运营阶段 -->
+                            <tr class="Governance">
+                                <td>利益相关方沟通</td> <!-- 二级指标 -->
+                                <td>
+                                    检查是否设计利益相关方沟通机制，是否有沟通渠道规划。
+                                    <input type="checkbox" class="checkbox">
+                                </td> <!-- 规划设计阶段 -->
+                                <td>
+                                    是否与施工过程中的利益相关方沟通。
+                                    <input type="checkbox" class="checkbox">
+                                </td> <!-- 施工阶段 -->
+                                <td>
+                                    招商运营是否开展与利益相关方沟通，是否有反馈处理机制。
+                                    <input type="checkbox" class="checkbox">
+                                </td> <!-- 招商运营阶段 -->
+                            </tr>
+                            <tr class="Governance">
+                                <td>激励与约束机制</td> <!-- 二级指标 -->
+                                <td>
+                                    是否设计可持续发展相关的激励与约束制度。
+                                    <input type="checkbox" class="checkbox">
+                                </td> <!-- 规划设计阶段 -->
+                                <td>
+                                    施工是否实施相关激励与约束，是否有执行记录。
+                                    <input type="checkbox" class="checkbox">
+                                </td> <!-- 施工阶段 -->
+                                <td>
+                                    是否执行运营相关激励与约束，是否有效果评估。
+                                    <input type="checkbox" class="checkbox">
+                                </td> <!-- 招商运营阶段 -->
+                            </tr>
+                            <tr class="Governance">
+                                <td rowspan="2">9.信息披露与透明度</td>
+                                <td>公众参与</td>
+                                <td>规划设计是否融入民众意见
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>1.施工是否允许公众监督。2.是否建立反馈机制，及时调整施工计划以响应公众关切。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>是否畅通公众发声渠道，如设置公众意见箱等，是否及时处理。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                            </tr>
+                            <tr class="Governance">
+                                <td>信息披露</td>
+                                <td>是否制定信息披露管理办法，是否对如总体规划、环境影响评价等内容进行信息披露。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>施工过程是否及时披露相关信息，是否有公示措施。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td>招商运营过程是否及时披露相关信息，提升透明度。
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                            </tr>
+ 
+                    </tbody>
+                </table>
+            </div>
+            <div id="progress-container">
+                <p>完成比例：<span id="completion-rate">0%</span></p>
+                <div id="progress-bar">
+                    <div id="progress-filled"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 文旅项目ESG自测系统</p>
+    </footer>
+    <script>
+        // 获取所有checkbox和进度条元素
+        const checkboxes = document.querySelectorAll('.checkbox');
+        const progressFilled = document.getElementById('progress-filled');
+        const completionRate = document.getElementById('completion-rate');
+
+        // 更新进度条函数
+        function updateProgress() {
+            const total = checkboxes.length;
+            const checked = document.querySelectorAll('.checkbox:checked').length;
+            const percentage = Math.round((checked / total) * 100);
+
+            progressFilled.style.width = percentage + '%';
+            completionRate.textContent = percentage + '%';
+        }
+
+        // 为每个checkbox添加事件监听
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', updateProgress);
+        });
+    </script>
+</body>
+</html>
